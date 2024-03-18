@@ -294,7 +294,7 @@ class HomePage extends StatelessWidget {
             spreadRadius: 0.0)
       ]),
       child: TextField(
-        //ToDo 2
+        //ToDo : Redesign the SearchBar
         decoration: InputDecoration(
             filled: true,
             fillColor: Colors.white,
@@ -319,7 +319,7 @@ class HomePage extends StatelessWidget {
                     ),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
-                      //ToDo 1
+                      //ToDo: switch the PicturePath or create new PicturePath
                       child: SvgPicture.asset('assets/icons/Filter.svg'),
                     ),
                   ],
@@ -359,7 +359,7 @@ class HomePage extends StatelessWidget {
         ),
       ),
       actions: [
-        //ToDo 3
+        //ToDo : Open any URL on Tap
         GestureDetector(
           onTap: () {},
           child: Container(
